@@ -1,0 +1,97 @@
+/* 
+    Document   : dashboard
+    Created on : 
+    Author     : Gabriel Fojo
+    Description: Custom Css
+        
+*/
+
+
+body > .header .logo {
+  font-family: droid_sansregular;
+  background-color:#132D60 ;
+
+}
+
+body > .header .logo span{
+  font-family: chunkfiveroman;
+
+}
+
+/* PasteBoard*/
+
+#pasteboard{
+min-height:120px;
+border:1px dashed #ccc;
+margin-bottom:10px;
+background-color:#FDFFA3;
+padding-top:15px;
+display:none;
+}
+
+/* Config Panel*/
+
+@media screen {
+#config_panel_bt{
+position: fixed;
+top:150px;
+right:0px;
+background: rgba(0, 0, 0, 0.7);
+border-radius: 5px 0px 0px 5px;
+padding: 10px 15px;
+font-size: 16px;
+z-index: 999999;
+cursor: pointer;
+color: #ddd;
+}
+
+#config_panel_content{
+	width:170px;
+	position: fixed;
+	top:150px;
+	right:-170px;
+	border:3px solid rgba(0, 0, 0, 0.1);
+	min-height:120px;
+	z-index: 999999;
+	background-color:#fff;
+	padding:5px;
+}
+}
+
+/* Loader */
+
+.box-body,.box{
+    position:relative;
+}
+.loader{
+    position:absolute;
+    width:100%;
+    text-align: center;
+   top:50%;
+   margin-top:-20px;
+
+}  
+
+.loader > div{
+    background: #fff;
+    display:inline;
+    padding: 14px 8px;
+    border-radius: 8px;
+}   
+
+.sidebar-menu ul li{
+  list-style:none;  
+}
+
+.sidebar-menu ul li i{
+  width:20px;
+}
+
+/* Matchheight adjust - sending footer to the bottom*/
+
+/*.small-box > .small-box-footer{*/
+/*position:absolute;*/
+/*bottom:0px;*/
+/*width:100%;*/
+/*}*/
+

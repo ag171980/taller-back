@@ -1,0 +1,83 @@
+{
+    "createdBy": "Gabriel Fojo <trialvd@gmail.com>",
+    "title": "Kitchen Sink",
+    "view": "layout_2cols",
+    "icon": "fa-flask",
+    "zones": [
+        {
+            "tiles": [
+
+            ]
+        },
+        {
+            "col1": [        
+                {
+                    "title": "UI elements : callout",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "callout",
+                    "box_icon":"fa-object-ungroup",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"0"
+                },
+                {
+                    "title": "UI elements : alert",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "alert",
+                    "box_icon":"fa-object-ungroup",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"1"
+                },
+                {
+                    "title": "UI elements : progress",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "progress",
+                    "box_icon":"fa-object-ungroup",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"1"
+                },
+                {
+                    "title": "UI elements : UL & OL",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "lists",
+                    "box_icon":"fa-object-ungroup",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"1"
+                }
+            ]
+        },
+        {
+            "col2": [
+                {
+                    "title": "JSON Box Settings",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "boxes",
+                    "box_icon":"fa-book",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"0"
+                },
+                {
+                    "title": "Pagination",
+                    "module": "dashboard",
+                    "controller": "kitchensink",
+                    "function": "pagination",
+                    "box_icon":"fa-book",
+                    "box_class":["box"],
+                    "box_buttons":["remove","collapse"],
+                    "box_collapsed":"0"
+                }
+                
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,15 @@
+/nbproject/
+/images/
+/tmp/
+/update-git.log
+/tests/
+/.buildpath
+/.project
+/.settings/
+/.c9/
+.c9revisions/
+.settings
+/API/
+/application/modules/qr/cache/
+/application/config
+/application/modules/bpm/assets/files/
